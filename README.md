@@ -130,7 +130,7 @@ Esegui questo comando nel terminale:
 
 ```bash
 php artisan vendor:publish --tag="artisan-ledger-views"
-
+```
 ### 2\. Dove trovare i file
 
 ### 
