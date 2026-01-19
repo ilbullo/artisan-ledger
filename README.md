@@ -172,7 +172,7 @@ Puoi inserire questi tag in qualsiasi file Blade (es. `resources/views/dashboard
 Utilizzato per caricare i dati della giornata selezionata.
 ```html
 <livewire:ledger-editor />
-
+```
 ### 2\. Tabella Mensile Dettagliata
 
 ### 
@@ -180,9 +180,9 @@ Utilizzato per caricare i dati della giornata selezionata.
 Mostra la griglia completa del mese corrente con i totali per ogni canale.
 
 HTML
-
+```
     <livewire:ledger-monthly-detail />
-
+```
 ### 3\. Riepilogo Totali Annuali
 
 ### 
@@ -190,9 +190,9 @@ HTML
 Mostra una tabella sintetica con i totali incassati mese per mese.
 
 HTML
-
+```
     <livewire:ledger-yearly-overview />
-
+```
 ### 4\. Griglia di Controllo (Checklist)
 
 ### 
@@ -200,9 +200,9 @@ HTML
 Una matrice compatta (mesi/giorni) per individuare rapidamente i giorni senza registrazioni.
 
 HTML
-
+```
     <livewire:ledger-monthly-grid />
-
+```
 * * *
 
 ### Esempio di implementazione rapida
@@ -212,7 +212,7 @@ HTML
 Ecco come potresti organizzare la tua dashboard in Laravel Breeze:
 
 HTML
-
+```
     <x-app-layout>
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
@@ -228,3 +228,4 @@ HTML
             </div>
         </div>
     </x-app-layout>
+```
