@@ -1,0 +1,31 @@
+{
+    "name": "ilbullo/artisan-ledger",
+    "description": "Modulo agnostico per la gestione dei corrispettivi giornalieri",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ilbullo\\ArtisanLedger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ilbullo\\ArtisanLedger\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ilbullo\\ArtisanLedger\\ArtisanLedgerServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^10.0|^11.0|^12.0",
+        "livewire/livewire": "^3.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.9"
+    }
+}
